@@ -175,6 +175,15 @@ class Handler(BaseHTTPRequestHandler):
     def person(self,q):
         if q.get('preview')=='1' and self.admin(q):return person_by_id(q.get('person')),q.get('inspect')!='1'
         return next((p for p in STATE['people'] if p['active'] and secrets.compare_digest(p['token'],q.get('token',''))),None),False
+    def do_HEAD(self):
+        """Cloud health checks often use HEAD. Only /api/health is supported."""
+        path=urlparse(self.path).path
+        if path=='/api/health':
+            body=json.dumps(dict(ok=True,service='CollabCanvas',base=BASE,build=BUILD)).encode()
+            self.send_response(200);self.send_header('Content-Type','application/json');self.send_header('Content-Length',str(len(body)));self.end_headers()
+            return
+        self.send_error(404)
+
     def do_GET(self):
         path,q=self.args()
         try:
