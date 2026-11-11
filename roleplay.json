@@ -1,0 +1,132 @@
+{
+  "roles": [
+    {
+      "id": "author",
+      "title": "Story Author",
+      "target": "reader",
+      "exchange": "Present the intended message. Ask {peer} which visual choice makes that message clear."
+    },
+    {
+      "id": "reader",
+      "title": "First-time Reader",
+      "target": "author",
+      "exchange": "Explain one difficult reading. Ask {peer} to point to the label or visual choice that resolves it."
+    },
+    {
+      "id": "editor",
+      "title": "Critical Editor",
+      "target": "author",
+      "exchange": "Test one claim against the source. Ask {peer} to narrow any claim the visual cannot support."
+    },
+    {
+      "id": "checker",
+      "title": "Evidence Checker",
+      "target": "author",
+      "exchange": "Check a date, unit, or category used in a claim. Ask {peer} to correct any mismatch."
+    },
+    {
+      "id": "host",
+      "title": "Discussion Host",
+      "target": "editor",
+      "exchange": "Name a difference between two readings. Ask {peer} what the source can settle and what remains open."
+    }
+  ],
+  "prompts": {
+    "81": [
+      "What message does the seven-frame story communicate? Explain how changing area supports that message.",
+      "Compare the first and final frames. What does area represent? Name one step that needs a clearer explanation.",
+      "Which step supports the claim about a small voting population? State one claim the story cannot establish.",
+      "Check the dates and population groups. Why do the voting data and Senate election refer to different years?",
+      "Prepare one question that connects population size with voting influence. Explain which frame the group should check."
+    ],
+    "83": [
+      "What change in middle-class jobs does the design emphasize? Explain how the order of the job groups supports it.",
+      "A line is red and slopes downward. Explain what each cue means. Which label helps you read it?",
+      "Does a falling line show fewer jobs in total? Test that claim using the vertical-axis unit.",
+      "Check the dates, unit, and gender legend. State one comparison that is valid and one that needs more data.",
+      "Prepare one question that connects gender composition with changes in job share. Keep the two variables distinct."
+    ],
+    "82": [
+      "What message does the long temperature timeline communicate? Explain how its scale supports it.",
+      "Compare past observations with future scenarios. Where do the labels help you tell them apart?",
+      "Which comparison supports the story about recent warming? State a limit of the displayed evidence.",
+      "Check the time scale and the transition to projections. Which parts describe the past, and which describe possible futures?",
+      "Prepare one question about how the long scroll changes the reading of recent warming. Point to a place to compare."
+    ],
+    "84": [
+      "What relationship between vaccination and outbreaks does this captured outcome communicate? Explain how repeated panels support it.",
+      "Use the legend to explain one panel. What does a dot represent, and what changes between panels?",
+      "Can this one recorded outcome show how much results vary? State what needs repeated simulation runs.",
+      "Check the vaccination-rate labels and dot colors. Distinguish a visible pattern from a guaranteed result.",
+      "Prepare one question about vaccination rate and the observed spread. Explain which panels the group should compare."
+    ],
+    "85": [
+      "What does the time-lapse communicate about growth across antibiotic concentrations? Use one visible transition.",
+      "Find a pause and a later advance. Explain what the concentration labels and time display help you read.",
+      "Does the video directly show a genetic mutation? Separate visible growth from an explanation that needs other evidence.",
+      "Check the concentration boundaries and time-lapse labels. State what they allow you to compare.",
+      "Prepare one question about the link between a pause and a later advance. Choose a moment the group should replay."
+    ]
+  },
+  "samples": {
+    "81": [
+      "The shrinking area emphasizes how the electorate narrows through successive filters.",
+      "The outlines help me compare population size, but I need the group labels at each transition.",
+      "The final electorate is small in the story. This does not show that every voter had equal political influence.",
+      "The voting data refer to 2010; the story concerns the 2014 Senate election.",
+      "We should compare the last electorate with the earlier population before judging the final analogy."
+    ],
+    "83": [
+      "The left-to-right ordering emphasizes a shift from production jobs toward other occupations.",
+      "Red shows gender composition. A downward slope shows a smaller share of middle-class jobs.",
+      "A smaller share per 1,000 jobs does not by itself establish a decline in the absolute number of jobs.",
+      "The endpoints are 1980 and 2012, and the axis gives jobs per 1,000 middle-class jobs.",
+      "We should discuss whether the color and slope support separate parts of our interpretation."
+    ],
+    "82": [
+      "The long history gives context for the rapid change near the end.",
+      "I need the labels to distinguish historical temperatures from future scenarios.",
+      "A visual comparison supports discussion of the trend, but it is not a full account of its causes.",
+      "The timeline separates past temperatures from future scenarios.",
+      "We should compare the same time interval in two parts before judging the pace of change."
+    ],
+    "84": [
+      "The repeated panels suggest less spread at higher vaccination rates in this captured outcome.",
+      "The legend explains the dot states, while the panel labels identify vaccination rates.",
+      "One outcome cannot establish the variability across runs.",
+      "A visible pattern in the capture is not a guaranteed outcome of another run.",
+      "We should compare two rates, then discuss what repeated runs could add."
+    ],
+    "85": [
+      "The video shows growth pausing and later advancing into stronger concentrations.",
+      "The concentration labels help me read where a growth boundary occurs.",
+      "The video shows growth; it does not directly display a mutation.",
+      "The concentration and time labels support comparisons across the plate and across moments.",
+      "We should replay a pause and advance before deciding what the evidence establishes."
+    ]
+  },
+  "roleOrder": {
+    "2": [
+      0,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      2
+    ],
+    "4": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "5": [
+      0,
+      1,
+      3,
+      2,
+      4
+    ]
+  }
+}

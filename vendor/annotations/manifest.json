@@ -1,0 +1,16 @@
+[
+  {
+    "package": "rough-notation",
+    "version": "0.5.1",
+    "source": "https://registry.npmjs.org/rough-notation/-/rough-notation-0.5.1.tgz",
+    "integrity": "sha512-ITHofTzm13cWFVfoGsh/4c/k2Mg8geKgBCwex71UZLnNuw403tCRjYPQ68jSAd37DMbZIePXPjDgY0XdZi9HPw==",
+    "tarball_sha256": "655d55d9d43989619efc8039ec6772980e46f485b3007055b2039da249913729"
+  },
+  {
+    "package": "roughjs",
+    "version": "4.6.6",
+    "source": "https://registry.npmjs.org/roughjs/-/roughjs-4.6.6.tgz",
+    "integrity": "sha512-ZUz/69+SYpFN/g/lUlo2FXcIjRkSu3nDarreVdGGndHEBJ6cXPdKguS8JGxwj5HA5xIbVKSmLgr5b3AWxtRfvQ==",
+    "tarball_sha256": "373873b2c3f1b7ddba878525c774816057c5818029780c7fba081f06018ba78c"
+  }
+]

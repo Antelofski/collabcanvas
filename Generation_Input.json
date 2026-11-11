@@ -1,0 +1,78 @@
+{
+  "instructor_brief": "Students review the seven-frame voting story as a story author, first-time reader, and critical editor. Each prepares an account, questions a peer in a roundtable, then revises their own explanation. Use 2 groups of 3 learners for 15 minutes.",
+  "method": "Role Play",
+  "material": {
+    "lecture_slide": 81,
+    "title": "Who gets a vote?",
+    "source": "https://www.bloomberg.com/politics/graphics/2014-who-votes-in-midterms/",
+    "local_frames": [
+      "assets/voters-1.jpg",
+      "assets/voters-2.jpg",
+      "assets/voters-3.jpg",
+      "assets/voters-4.jpg",
+      "assets/voters-5.jpg",
+      "assets/voters-6.jpg",
+      "assets/voters-7.jpg"
+    ],
+    "source_context": "A seven-part story narrows the US population to voters in competitive Senate states. The voting data refer to 2010; the story concerns the 2014 election. Area represents population, not geographic area.",
+    "author": "Keith Collins & Greg Giroux · Bloomberg",
+    "frame_labels": [
+      "Population",
+      "Voting-age population",
+      "Voters",
+      "States with Senate races",
+      "Competitive states",
+      "Combined voters",
+      "Comparison with Florida"
+    ]
+  },
+  "constraints": {
+    "groups": 2,
+    "learners_per_group": 3,
+    "total_minutes": 15,
+    "phase_minutes": {
+      "prepare": 5,
+      "roundtable": 6,
+      "revise": 4
+    }
+  },
+  "student_roles": [
+    {
+      "role": "Story author",
+      "preparation_question": "What message does the seven-frame story communicate? Explain how changing area supports that message.",
+      "exchange_action": "Present the intended message. Ask {peer} which visual choice makes that message clear.",
+      "assigned_slots": [
+        0
+      ]
+    },
+    {
+      "role": "First-time reader",
+      "preparation_question": "Compare the first and final frames. What does area represent? Name one step that needs a clearer explanation.",
+      "exchange_action": "Explain one difficult reading. Ask {peer} to point to the label or visual choice that resolves it.",
+      "assigned_slots": [
+        1
+      ]
+    },
+    {
+      "role": "Critical editor",
+      "preparation_question": "Which step supports the claim about a small voting population? State one claim the story cannot establish.",
+      "exchange_action": "Test one claim against the source. Ask {peer} to narrow any claim the visual cannot support.",
+      "assigned_slots": [
+        2
+      ]
+    }
+  ],
+  "generation_mode": "Codex authoring uses the supplied prompts and catalogue. The local webpage uses four method-specific blueprints; no model API is connected.",
+  "context_files": [
+    "CoLT_Catalogue.txt",
+    "Method_Procedures.json",
+    "Planning_Prompt.txt",
+    "Generation_Prompt.txt"
+  ],
+  "shared_scenario": "An editorial meeting: the story author, first-time reader, and critical editor review the visual for publication.",
+  "instructor_responsibilities": {
+    "prepare": "Clarify the editorial scenario and each role’s responsibility.",
+    "roundtable": "Listen to the exchange; probe a claim that needs support.",
+    "revise": "Debrief the different positions before students revise."
+  }
+}

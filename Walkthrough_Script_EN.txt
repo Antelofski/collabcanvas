@@ -1,0 +1,113 @@
+Start from an empty canvas
+Open Planner to set up one connected group activity.
+
+1 · Upload the teaching material
+Lilian uploads her InfoVis slides.
+
+2 · Select the visualization
+She chooses a voting story whose shrinking maps filter groups of people.
+
+3 · Describe the activity
+She asks for an editorial review: inspect area, labels and sequence, then write a shared critique.
+
+4 · Choose the collaboration method
+She selects Role Play for the group activity.
+
+5 · Set the number of teams
+Three teams will work on the same activity.
+
+6 · Set the group size
+Four learners per team will receive four distinct role interfaces.
+
+7 · Set the time
+The activity has eighteen minutes.
+
+Review, then generate
+The Planner summarizes the setup before generation.
+
+Inspect the connected interfaces
+The canvas contains one instructor plan and four student interfaces. Open any interface to inspect it.
+
+Edit the generated interfaces
+Request group discussion, separate role work, then shared writing. Preview the connected change and apply it.
+
+Select three collaboration progress rules
+Choose contribution, peer response and reasoning checks. Individual answers remain available as activity data.
+
+R2 · Peer questions receive a response
+Before the shared critique, the Reader’s question should receive a linked response.
+
+R3 · Agreement includes a reasoning check
+When initial choices match, record a response to a contrasting claim and a peer check.
+
+Test the interfaces before release
+Run scripted browser tests for saving, reload, private answers, peer access and handoffs. All twenty-five checks pass.
+
+Deploy one class entry
+One class QR leads to group and role selection.
+
+Learners claim their interfaces
+Each student chooses a group, claims an available role and opens the assigned interface.
+
+Inspect progress across teams
+Simulated records show three collaboration situations. Open a team to inspect its evidence.
+
+R1 · A contribution is missing at the checkpoint
+Three of four contributions are saved with two minutes left. Eli has no saved contribution and explicitly asks for smaller steps.
+
+Preview a response to the learner’s request
+Compare Eli’s current and proposed interfaces before applying any change.
+
+Open the full current interface
+Inspect the original role tools and task requirements.
+
+Open the full proposed interface
+The same role task now has three smaller steps. Eli completes them; teammates can use the shared findings.
+
+Confirm the recipient
+Only Eli receives the smaller-step task. Existing work stays intact.
+
+Apply and inspect the live interface
+The teacher applies the change and opens Eli’s actual updated interface from the canvas.
+
+Inspect the contribution after support
+Example follow-up work shows the smaller steps and a saved role contribution. The teacher reads the work and records a review.
+
+R2 · A peer question has been overlooked
+Team 2 reaches shared writing. Sam’s question about population size and political power has no linked response.
+
+Bring the existing question into shared writing
+The proposed interface shows Sam’s question beside the critique and provides a direct response field.
+
+Apply the peer-response interface
+Apply only to Team 2. Preserve the original question and critique.
+
+Inspect the question–response link
+An example response from Alex addresses Sam’s question and cites the legend. The teacher still checks its quality.
+
+R3 · Agreement needs a reasoning check
+All four initial choices match, but the selected contrast-and-reply check is missing. Agreement itself is not a wrong answer.
+
+Preview a contrasting claim
+Add a counterfactual: could the map shrink while total residents stay constant? Ask for an explanation and a peer response.
+
+Apply only to the relevant team
+Team 3 receives the reasoning exchange. Original individual answers stay private.
+
+Inspect the explanation and peer response
+Example work includes Ren’s explanation and Taylor’s linked reply. The teacher inspects both before recording a review.
+
+Keep the evidence and the teacher’s decisions
+Detect a concern, preview a change, apply it to the relevant interfaces, and inspect what happens next.
+
+Review each learner’s task evidence
+The knowledge-state report separates demonstrated performance, areas needing support, and evidence still needing review.
+
+Record a task judgment and a next check
+The teacher reviews Eli’s individual explanation and records what it shows, plus a new task to check independently.
+
+Keep unresolved knowledge difficulties visible
+Maya’s saved answer still treats map area as land area. Her team finishing the activity does not erase this individual difficulty.
+
+Save a report for later planning
+Save a class snapshot with task evidence and teacher judgments. The report can also be downloaded for later review.

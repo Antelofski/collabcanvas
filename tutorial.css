@@ -1,0 +1,36 @@
+/* The guide owns its own strip: it never sits over the control being explained. */
+:root{--guide-height:210px}
+body.tour-open .workspace{height:calc(100dvh - 56px - var(--guide-height))}
+#tutorialDock.tutorial-dock{position:fixed;left:0;right:0;bottom:0;top:auto;transform:none;width:100%;height:var(--guide-height);border:0;border-top:1px solid #ffffff16;border-radius:0;z-index:65;background:#252527fa;padding:14px 26px 18px;color:#ededf4;backdrop-filter:blur(25px);box-shadow:0 -12px 45px #0003;touch-action:auto}
+#tutorialDock[hidden]{display:none!important}
+.tour-top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:15px}
+.tour-path{display:flex;align-items:center;gap:14px;font-size:11px;color:#85858e}
+.tour-path i{font-style:normal;color:#5e5e66}.tour-path .current{color:#acd1ff}
+.tour-top-actions{display:flex;gap:14px}.tour-top-actions button{background:none;padding:0;color:#a7a7b2;font-size:11px;min-height:25px}
+.tour-main{display:grid;grid-template-columns:190px minmax(0,1fr) 175px;gap:28px;align-items:start}
+.tour-step-index>span{font-size:10px;color:#9a9aa6;display:block}.tour-step-index>strong{display:block;font-size:30px;font-weight:400;font-variant-numeric:tabular-nums;line-height:1.4}.tour-step-index small{font-size:13px;color:#777782}
+.tour-step-index select{width:100%;font-size:10px;padding:5px;margin-top:4px;color:#aaaab6;overflow:hidden;text-overflow:ellipsis}
+.tour-heading{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.tour-heading h2,.tour-intro h2{font-size:19px;letter-spacing:-.4px;font-weight:550;margin:0;color:#f1f1f6}.tour-effect{font-size:10px;color:#d4b896;background:#b5853e13;border:1px solid #c3985924;padding:2px 6px;border-radius:4px}
+.tour-instruction>p,.tour-intro p{font-size:13px;line-height:1.65;color:#b1b1bd;margin:7px 0 9px;max-width:770px}
+.tour-inline-actions{display:flex;gap:8px;flex-wrap:wrap}
+.tour-inline-actions button{font-size:11px;min-height:30px;padding:4px 9px;background:#ffffff08;color:#a9cbf6;border:1px solid #ffffff0c}
+.tour-completion,.tour-wait{font-size:10px;margin-top:8px;color:#a9cbf6}.tour-wait{color:#898995}
+.tour-nav{display:flex;flex-direction:column;gap:9px}.tour-nav>button{font-size:12px;min-height:33px;padding:6px 11px}.tour-nav>button:first-child{background:none;color:#a7a7b2;text-align:left;padding-left:0;min-height:24px}.tour-nav>span{font-size:10px;color:#868692;line-height:1.5}
+.tour-intro{display:flex;justify-content:space-between;align-items:center;gap:30px;max-width:1100px;margin:18px auto 0}.tour-kicker{font-size:9px;letter-spacing:1.5px;color:#8c9db2;display:block;margin-bottom:8px}
+.tour-intro-actions{display:flex;flex-direction:column;gap:8px;min-width:180px}.tour-intro-actions button{font-size:12px;padding:9px 14px;min-height:36px}
+.tour-contents{position:absolute;bottom:calc(100% + 12px);right:20px;width:300px;padding:16px;border:1px solid #ffffff20;border-radius:13px;background:#2d2d30;box-shadow:0 12px 60px #0008;max-height:calc(100dvh - var(--guide-height) - 30px);overflow:auto}
+.tour-contents h3{font-size:12px;margin:0 0 12px;color:#e2e2ec}.tour-contents>button{display:flex;width:100%;justify-content:space-between;text-align:left;font-size:11px;padding:7px 10px;background:none}.tour-contents>button[data-tour-path]{color:#9bc6ff;border-top:1px solid #ffffff13;border-radius:0;margin:7px 0 3px;padding-top:12px}.tour-contents span{font-size:10px;color:#888895}
+#tutorialSpotlight{position:fixed;z-index:62;pointer-events:none;border:2px solid #77b5ff;border-radius:7px;box-shadow:0 0 0 4px #0a84ff20;transition:top .16s ease-out,left .16s ease-out,width .16s ease-out,height .16s ease-out}
+#tutorialSpotlight[hidden]{display:none}
+body.tour-open .overlay{bottom:var(--guide-height);padding:16px}
+body.tour-open .modal{max-height:calc(100dvh - var(--guide-height) - 32px)}
+body.tour-open .focus-modal{height:calc(100dvh - var(--guide-height) - 32px)}
+body.tour-open .guided .command-bar{display:none}
+body.tour-open.tour-command .guided .command-bar{display:flex}
+body.tour-open .toast{bottom:calc(var(--guide-height) + 12px);z-index:66}
+body.tour-open .inspector-body label:has(>#structure),body.tour-open .inspector-body label:has(>#selectedPerson){display:grid}
+body.tour-open .inspector-body,body.tour-open .modal{scroll-padding-block:24px}
+@media(max-width:1000px){.tour-main{grid-template-columns:140px minmax(0,1fr) 150px;gap:18px}.tour-instruction>p{font-size:12px}.tour-heading h2{font-size:17px}#tutorialDock.tutorial-dock{padding-inline:18px}}
+@media(max-width:760px){:root{--guide-height:280px}body.tour-open .workspace{height:calc(100dvh - 50px - var(--guide-height))}#tutorialDock.tutorial-dock{padding:11px 15px;height:var(--guide-height);overflow:visible}.tour-top{margin-bottom:12px;gap:6px}.tour-path{font-size:10px;gap:8px}.tour-main{grid-template-columns:minmax(0,1fr);gap:8px;position:relative}.tour-step-index{display:flex;align-items:center;gap:9px}.tour-step-index>strong{font-size:14px;white-space:nowrap;order:-1}.tour-step-index small{font-size:10px}.tour-step-index>span{display:none}.tour-step-index select{max-width:calc(100% - 80px);margin:0}.tour-heading h2{font-size:16px}.tour-instruction>p{font-size:12px;margin:5px 0 8px;line-height:1.55}.tour-inline-actions{gap:5px}.tour-inline-actions button{font-size:10px;min-height:29px}.tour-nav{flex-direction:row;align-items:center;justify-content:space-between;gap:8px}.tour-nav>button{font-size:11px;min-height:33px}.tour-nav>span{display:none}.tour-completion,.tour-wait{margin-top:5px;font-size:9px}.tour-top-actions{gap:10px}.tour-top-actions button{font-size:10px}.tour-intro{margin:12px 0;display:block}.tour-intro h2{font-size:18px}.tour-intro p{font-size:12px}.tour-intro-actions{flex-direction:row;min-width:0;margin-top:12px}.tour-intro-actions button{font-size:11px}.tour-contents{right:10px;width:min(300px,calc(100vw - 20px))}body.tour-open .overlay{padding:10px}body.tour-open .modal{max-height:calc(100dvh - var(--guide-height) - 20px)}body.tour-open .focus-modal{height:calc(100dvh - var(--guide-height) - 20px)}.top-actions #openGuide{display:block;font-size:10px;padding:5px 7px}.brand{font-size:11px;gap:5px}.top-actions{gap:3px}.topbar{gap:7px;padding:0 9px}}
+@media(prefers-reduced-motion:reduce){#tutorialSpotlight{transition:none}}
+

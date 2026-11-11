@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: collabcanvas
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: COLLABCANVAS_PUBLIC
+        value: "1"
+      - key: COLLABCANVAS_START_VIEW
+        value: progress

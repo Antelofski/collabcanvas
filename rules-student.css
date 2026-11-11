@@ -1,0 +1,39 @@
+/* Rule instruments in the learner page. Same surface language as the role tools. */
+#ciArea{display:grid;gap:14px;margin-top:16px}
+#ciTop{display:grid;gap:10px;margin-bottom:16px}
+.ci-card{background:#fff;border:1px solid #dce2ec;border-radius:16px;padding:22px 26px}
+.editorial-studio .ci-card header,.ci-card header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;height:auto;padding:0;background:none;border:0;-webkit-backdrop-filter:none;backdrop-filter:none;max-width:none}
+.ci-card h3{margin:0;font-size:18px;letter-spacing:-.3px;color:#20252c}
+.ci-card>p{margin:8px 0 14px;color:#556173;font-size:14px;line-height:1.55;max-width:68ch}
+.ci-card textarea{display:block;box-sizing:border-box;width:100%;min-height:76px;border:1px solid #d6dce6;background:#fff;border-radius:9px;padding:12px;font:14px/1.5 inherit;resize:vertical}
+.ci-card .progress-kicker{margin-bottom:8px}
+.ci-focus{border-left:3px solid #5282c9}
+.ci-plain{background:#f7f9fc;border-style:dashed;padding:16px 22px}
+.ci-plain>p{margin-bottom:0}
+.ci-count{font-size:12px;font-weight:600;color:#8a5a12;background:#fdf3e1;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.ci-count.done{color:#2c6a45;background:#e6f4ec}
+.ci-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px}
+.ci-row small{color:#788393;font-size:12px}
+.ci-quiet{margin:0;padding:10px 14px;background:#f4f6fa;border-radius:9px;color:#5d6a7c;font-size:13px}
+.ci-choice{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.ci-choice label{display:flex;align-items:center;gap:8px;padding:9px 14px;background:#f7f9fc;border:1px solid #e1e5ec;border-radius:10px;font-size:14px;cursor:pointer}
+.ci-choice label:has(input:checked){background:#edf3ff;border-color:#799cdb}
+.ci-choice input{accent-color:#2461c8;width:16px;height:16px;margin:0}
+.ci-card fieldset{border:0;padding:0;margin:0 0 6px}
+.ci-card legend,.ci-card form>label{display:block;padding:0;margin:8px 0;font-size:14px;font-weight:600;color:#2b3442}
+.ci-card form>label textarea{margin-top:8px;font-weight:400}
+.ci-list{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.ci-list li{padding:10px 14px;background:#f7f9fc;border-radius:10px;font-size:13px}
+.ci-list li b{margin-right:6px}
+.ci-list li span{color:#5d6a7c}
+.ci-list li p{margin:4px 0 0;color:#2b3442;line-height:1.5}
+.ci-list li.stale{opacity:.6}
+.ci-authors{margin:10px 0 0;font-size:12px;color:#6b7788}
+.ci-status{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;background:#fff;border:1px solid #dce2ec;border-radius:14px;padding:14px 18px}
+.ci-status label{font-size:12px;font-weight:600;color:#5d6a7c}
+.ci-status input{display:block;box-sizing:border-box;width:100%;margin-top:6px;border:1px solid #d6dce6;border-radius:9px;padding:9px 12px;font:14px/1.4 inherit}
+.ci-status p{grid-column:1/-1;margin:0;font-size:13px;color:#445166}
+.ci-note{margin:0;padding:9px 14px;background:#f4f6fa;border-radius:9px;color:#5d6a7c;font-size:12px}
+.adaptive-help [data-ci-request]{color:#334e74;background:#fff;border:0}
+.adaptive-help [data-ci-request]:hover{background:#edf3fc}
+@media(max-width:720px){.ci-card{padding:18px}.ci-row{align-items:flex-start;flex-direction:column}.ci-status{grid-template-columns:1fr}}

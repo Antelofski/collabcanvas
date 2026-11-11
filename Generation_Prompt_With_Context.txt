@@ -1,0 +1,279 @@
+Translate the instructor’s chosen collaborative activity into an executable plan. Use the source materials, CoLT procedure, learner context, group constraints, and existing student work. Preserve the instructor’s teaching intention.
+
+Represent tasks as inputs, meaningful learner operations, produced artifacts, recipients, and completion conditions. Describe group membership and roles, distribution of materials and cognitive work, interaction and visibility rules, and stage timing. These are Dillenbourg’s five structural attributes. Use them as a connected representation and validation framework, not five mandatory authoring forms.
+
+Specify a complete role workspace and its state transitions for every learner. A source plus a question and a textbox is insufficient when the learning task requires comparison, organization, review, feedback, or revision. Identify exactly how one person’s work becomes another person’s input. Protect independent work and distinguish a shared decision from individual understanding.
+
+For a teaching edit, preserve stable identities and existing artifacts. Compute the affected tasks, views, dependencies, permissions, and completion conditions. Show a short teaching-level explanation and a preview before applying. Do not force the instructor to choose incidental parameters that the request does not require. In particular, do not add a per-item-versus-batch return control in this pilot.
+
+Offer two local alternatives only when the instructor requests exploration. Retain the current plan until a candidate is applied. Make unsupported requests explicit. Include instructor intervention, observable saved-work state, and a real deployment review. Do not fabricate speech, engagement, correctness, or learning gains.
+
+
+UI GENERATION
+
+Build connected, working HTML interfaces for the instructor’s collaborative learning activity. Use the source lecture and its original visual assets, the supplied CoLT procedural record, and the instructor’s chosen arrangement. The instructor has already chosen what activity to conduct.
+
+DESIGN THE LEARNING WORK, THEN ITS INTERFACES
+Create a task-specific interface for every learner. Decide what each person receives, manipulates, produces, and passes to another person. Make the handoffs usable: a peer’s actual artifact must become an input to the next person’s work. The interfaces must support preparation, exchange, and revision with persistent state. Let the activity determine the tools, layout, and number of steps. Use concise, direct English. Rich work does not require long instructions.
+
+Do not reduce every role to a source image, a question, and a textarea. Support the operations needed by this material: comparing original story frames, constructing and ordering an account, keeping source-linked reading notes, checking individual claims against frames, returning specific feedback, revising in context, and recording unresolved differences. A role differs in its tools, outputs, and dependencies, not just its title or question. Preserve source context: the voting data refer to 2010; the story concerns the 2014 Senate election; square area represents people.
+
+INSTRUCTOR AUTHORING
+Begin on an empty, freely movable canvas. A Planner button in the bottom dock opens a draggable configuration widget on that canvas. Let the instructor upload a PDF of slides, inspect slide thumbnails, choose material, and describe the activity. Distinguish PDF page numbers from slide labels; the supplied SI649 PDF is a two-up handout. Generate one distinct student interface per role. In the four-person editorial meeting, assign Story Author, First-time Reader, Evidence Checker, and Critical Editor. The group count creates separate groups, not duplicate designs on the canvas. Reuse their arrangement across teams while keeping identities and responses separate.
+
+The instructor can open and use any learner interface. On selecting a meaningful section, offer Edit and Try alternatives in a small contextual menu. An Edit describes a teaching change and previews its consequences across connected interfaces. For example, asking the editor to check each claim and return changes must provide individually reviewable author claims, an editor’s source-linked check for each claim, returned feedback beside the author’s revision, and a final decision that can retain unresolved questions. Preserve existing work through this change. Show a before/after preview, a short summary of affected roles, explicit Apply, and Undo.
+
+Try alternatives is invoked by the instructor. Compare two local exchange arrangements with working previews rather than regenerating several whole activities after every edit. Support independent accounts followed by comparison, or a source-linked question before opening peer explanations. Enforce concealment on the server, not only by hiding HTML.
+
+Maintain Dillenbourg’s task, group, distribution, interaction, and timing attributes in the underlying activity model. Keep precise controls available under Plan details, without requiring the teacher to fill five separate forms before editing. Do not add a per-item-versus-batch handoff control. Do not decorate the pages with hand-drawn notation, persistent arrows, circles, or underlines. Use temporary selection and clear UI states.
+
+DISCUSSION-FIRST EDIT
+For the request “Start with a group discussion of the first and last frames. Record one initial reading. Then let the four roles examine that reading on their own. Finally, bring their findings together to write one shared critique,” update all connected interfaces. Save one group starting reading. Include that reading in each role task. Open peer findings only when all four roles share their work. Bring those saved findings into one shared critique, with a version check to avoid overwriting a teammate’s newer edit. Preserve the role tools, not just four copies of a textbox.
+
+TEST ACTIVITY
+Offer an instructor-triggered UI testing agent that runs actual browser journeys against isolated test state. Test source controls, each role’s saved work and reload, visibility before submission, group boundaries, and shared-stage handoffs. Report actual failures and support rerunning after a fix. Keep test answers outside student and rehearsal records. Passing these tests checks functionality; it does not establish learning quality.
+
+CLASSROOM EXECUTION
+Deployment is an explicit step after review. Generate a real class QR and separate claimable learner links. Do not start the timer on deployment. Provide a Teams view with actual saved work, submitted stages, missing contributions, returned checks, and explicit help requests. From a team, inspect each role’s artifacts and send a targeted teacher message. Label rehearsal samples and keep them separate from classroom data. Progress is evidence of saved actions, not a claim to understand an unrecorded spoken discussion.
+
+IMPLEMENTATION AND VERIFICATION
+Keep the activity specification, UI state, and student artifacts separate. Preserve identity, drafts, links, and feedback when timing or teaching arrangements change. Validate role permissions, peer visibility, artifact versions, phase conditions, and multi-team isolation. Use original assets. Provide keyboard access, narrow-screen layouts, readable contrast, focused copy, and restrained white/graphite/blue styling. The interfaces must be usable, not screenshots. Run the whole upload-plan-preview-edit-apply-deploy-join-work-feedback-revise journey.
+
+PROTOTYPE HONESTY
+The delivered local pilot is authored using this prompt and implements the InfoVis editorial scenario. Its in-app generation and teaching-edit operations use prepared local rules, not a connected LLM. Do not claim arbitrary prompts, arbitrary slides, or arbitrary generated code are supported by this bounded runtime. Unsupported edits must return a clear message rather than silently becoming an activity note. A full model-backed implementation would use this specification as the generation contract.
+
+
+COLT CATALOGUE
+
+CoLT Categories
+Discussion
+Think-Pair-Share
+Definition: Students think individually, discuss their responses with a partner, and then share with the whole class.
+Advantage: It prepares students to participate more confidently and effectively in whole-class discussions.
+Round Robin
+Definition: Students take turns sharing ideas in a fixed order within a group.
+Advantage: It structures brainstorming and ensures that every student has an opportunity to contribute.
+Buzz Groups
+Definition: Students discuss course-related questions informally in small groups.
+Advantage: It generates many ideas quickly and prepares students for richer whole-class discussions.
+Talking Chips
+Definition: Students contribute a token each time they speak during a group discussion.
+Advantage: It promotes balanced participation by encouraging quieter students to contribute and limiting dominant speakers.
+Three-Step Interview
+Definition: Students interview each other in pairs and then report what they learned to another pair.
+Advantage: It helps students build connections and strengthen their listening and communication skills.
+Critical Debate
+Definition: Students prepare and defend a position that opposes their personal views on an issue.
+Advantage: It develops critical thinking by encouraging students to examine alternative perspectives and question their assumptions.
+Reciprocal Teaching
+Note-Taking Pairs
+Definition: Students compare and combine their individual notes to create an improved shared version.
+Advantage: It helps students fill information gaps, correct inaccuracies, and improve their note-taking skills.
+Learning Cell
+Definition: Students take turns asking and answering questions they individually prepared about a reading or learning activity.
+Advantage: It encourages active engagement with course content and deeper thinking through peer questioning.
+Fishbowl
+Definition: Students form inner and outer circles, with the inner group discussing while the outer group listens and observes.
+Advantage: It allows students to observe and learn effective discussion practices and group interactions.
+Role-Play
+Definition: Students adopt different identities and act out a scenario.
+Advantage: It engages students creatively and helps them learn through direct participation.
+Jigsaw
+Definition: Students develop expertise in a topic and then teach it to their peers.
+Advantage: It motivates students to understand material deeply enough to explain it clearly to others.
+Test-Taking Teams
+Definition: Students study together, take a test individually, and then retake the test as a group.
+Advantage: It helps students identify gaps in understanding while learning content and test-taking strategies from peers.
+Problem-Solving
+Think-Aloud Pair Problem-Solving (TAPPS)
+Definition: Students work in pairs, with one explaining their problem-solving reasoning aloud while the other listens.
+Advantage: It makes the reasoning process visible and helps students identify errors in logic or procedure.
+Send-a-Problem
+Definition: Groups solve a problem and pass it with their solution to another group, with the final group evaluating the accumulated solutions.
+Advantage: It develops collaborative problem-solving skills and helps students compare and evaluate different solutions.
+Case Study
+Definition: Students analyze a written account of a real-world situation and propose a solution to its central dilemma.
+Advantage: It connects abstract theories and principles to relevant, practical situations.
+Structured Problem-Solving
+Definition: Students follow a defined sequence of steps to identify, analyze, and solve a problem.
+Advantage: It makes complex problems more manageable and develops an organized approach to solving them.
+Analytic Teams
+Definition: Students assume distinct analytical roles, such as summarizer or critic, to examine a reading, lecture, or video together.
+Advantage: It helps students practice individual components of critical analysis before combining them into a more complete analysis.
+Group Investigation
+Definition: Students collaboratively plan, conduct, and report on an in-depth research project.
+Advantage: It develops research skills while building detailed knowledge of a specific topic.
+Graphic Organizer
+Affinity Grouping
+Definition: Students generate ideas, identify common themes, and organize the ideas into related groups.
+Advantage: It helps students break down complex topics and classify their main components.
+Group Grid
+Definition: Students place given pieces of information into a grid according to specified categories.
+Advantage: It clarifies conceptual categories and strengthens students’ classification skills.
+Team Matrix
+Definition: Students complete a chart showing whether related concepts possess particular defining features.
+Advantage: It helps students distinguish between closely related concepts by comparing their key characteristics.
+Sequence Chains
+Definition: Students create a diagram showing an ordered series of events, actions, or decisions.
+Advantage: It helps students understand processes, chronological order, and cause-and-effect relationships.
+Word Webs
+Definition: Students organize related ideas visually and connect them with lines or arrows to show relationships.
+Advantage: It helps students identify and represent connections among concepts.
+Writing
+Dialogue Journals
+Definition: Students record their thoughts in journals and exchange them with peers for comments and questions.
+Advantage: It connects coursework to personal experience while encouraging thoughtful written interaction.
+Round Table
+Definition: Students take turns adding short written responses to a prompt before passing the paper to the next person.
+Advantage: It provides informal writing practice and creates a shared written record of ideas.
+Dyadic Essays
+Definition: Students prepare essay questions and model answers, exchange questions with a partner, and compare their responses with the model answers.
+Advantage: It helps students identify key learning points and practice developing and answering substantive questions.
+Peer Editing
+Definition: Students critically review a peer’s writing and provide constructive editorial feedback.
+Advantage: It develops editing skills and helps students improve their work before submitting it for assessment.
+Collaborative Writing
+Definition: Students work together to produce a formal paper.
+Advantage: It helps students learn and carry out the stages of writing more effectively.
+Team Anthologies
+Definition: Students compile course-related readings and add their own responses to the selected material.
+Advantage: It gives students experience with the research process without requiring a formal research paper.
+Paper Seminar
+Definition: Students write and present an original paper, receive feedback from selected peers, and discuss its issues with the whole group.
+Advantage: It supports in-depth discussion of research and provides focused feedback on individual students’ work.
+Games
+Team Scavenger Hunt
+Definition: Students work in teams to locate items from a course-related list.
+Advantage: It introduces students to important artifacts and concrete visual or physical examples of course concepts.
+Quizo
+Definition: Students answer questions to earn chips and place them on a board, aiming to cover five consecutive spaces.
+Advantage: It provides an engaging way to introduce or review factual information.
+Friendly Feud
+Definition: Students generate multiple correct answers to a single prompt question.
+Advantage: It helps students recognize that a question can have several valid answers with varying degrees of correctness.
+Team Jeopardy
+Definition: Students select categories and point values, receive an answer, and supply the corresponding question.
+Advantage: It encourages students to approach familiar content from a different direction by constructing questions from answers.
+Team Games Tournaments
+Definition: Students study in mixed-ability teams and then compete with similarly skilled peers to earn points for their home teams.
+Advantage: It provides a competitive group activity for assessing students’ mastery of specific course content.
+
+
+PROCEDURAL RECORDS
+
+[
+  {
+    "id": 1,
+    "name": "Think-Pair-Share",
+    "book_category": "Discussion",
+    "ordered_paraphrased_procedure": [
+      "Present a question and allow independent thinking and responses.",
+      "Pair learners nearby.",
+      "A shares with B, then B with A. Clarify reasons for disagreement; a joint response is optional."
+    ],
+    "participants_grouping": "Individual → pairs → optional class reporting.",
+    "roles": [
+      "A and B: reciprocal speakers/listeners."
+    ],
+    "key_peer_dependency": "Both responses must become available for comparison.",
+    "artifact_flow": "Private ideas → exchanged explanations → optional joint response/class contribution.",
+    "nonnegotiable_mechanism": "Protected individual thought precedes reciprocal pair exchange.",
+    "important_variants": [
+      "Written preparation and class reporting are instructor choices; online adaptation uses paired communication."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique37-Think-Pair-Share-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=158"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 10,
+    "name": "Role-Play",
+    "book_category": "Reciprocal Teaching",
+    "ordered_paraphrased_procedure": [
+      "Form groups large enough for the stakeholder roles.",
+      "Present and clarify the scenario; allow questions.",
+      "Assign stakeholder and any moderator/observer roles and clarify duties.",
+      "Set a time limit or other stopping condition.",
+      "Enact until the target behavior, characteristic or skill becomes clear.",
+      "Debrief role interpretations, motivations and consequences in groups or as a class.",
+      "Optionally reenact with different characters or a revised scenario and debrief again."
+    ],
+    "participants_grouping": "Groups large enough for the scenario’s stakeholder roles.",
+    "roles": [
+      "Stakeholders; optional moderator and observers."
+    ],
+    "key_peer_dependency": "Action depends on responding from different stakeholder positions.",
+    "artifact_flow": "Scenario → enacted decisions/dialogue → interpretation/debrief; optional reenactment.",
+    "nonnegotiable_mechanism": "Assumed perspectives must be enacted and interpreted.",
+    "important_variants": [
+      "Role swap; observed performance; Triad Listening: speaker/listener/referee."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique23-Role-Play-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=186"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 17,
+    "name": "Analytic Teams",
+    "book_category": "Problem-Solving",
+    "ordered_paraphrased_procedure": [
+      "Form groups of four or five and allocate specific analytic roles and duties.",
+      "Present a common lecture, video or reading.",
+      "Allow individuals to share findings and jointly prepare an oral or written analysis.",
+      "Close in a way that highlights role contributions, using a brief report, panel or poster format appropriate to the task."
+    ],
+    "participants_grouping": "Groups of4–5 in the book; distinct analytic functions on one source.",
+    "roles": [
+      "Proponent; critic; example giver; summarizer; questioner, as appropriate."
+    ],
+    "key_peer_dependency": "A fuller analysis requires distinct functions applied to the same material.",
+    "artifact_flow": "Common source → individual role analysis → team exchange → reports.",
+    "nonnegotiable_mechanism": "Divide analytic responsibilities rather than merely dividing source pages.",
+    "important_variants": [
+      "Assign roles to whole teams; use different related assignments; extend across sessions."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique06-Analytic-Teams-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=215"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 27,
+    "name": "Peer Editing",
+    "book_category": "Writing",
+    "ordered_paraphrased_procedure": [
+      "In pairs discuss the papers each plans to write; the partner takes notes, questions and suggests.",
+      "Research individually while also noticing resources useful to the partner.",
+      "Write individual drafts.",
+      "Exchange drafts, annotate them and complete a signed criteria-based review form.",
+      "Each author revises in light of the review.",
+      "Submit the final draft with its review form for instructor evaluation."
+    ],
+    "participants_grouping": "Pairs support individually authored papers.",
+    "roles": [
+      "Author; questioning partner; editor, reciprocally."
+    ],
+    "key_peer_dependency": "A partner’s critical reading informs author revision.",
+    "artifact_flow": "Idea talk → independent paper → reviewed draft → revision → submission.",
+    "nonnegotiable_mechanism": "Reciprocal critique leads to author revision.",
+    "important_variants": [
+      "Content/argument review as well as language editing."
+    ],
+    "source_urls": [
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=265"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  }
+]
+
+Keep completion, understanding, and participation separate. Private reading checks are visible only to the learner and instructor. Treat wrong answers as a reason to inspect evidence, not proof of disengagement. A scoped comparison task can be added to one team without replacing saved work. Keep the original answer and a distinct follow-up. Rubric and participation observations require instructor evidence; do not infer unrecorded speech. Save adaptations for the next activity or next run as separate drafts, retaining their evidence and preserving the running session.
+
+
+Support instructor-guided adaptation across connected student interfaces during an activity. Link each progress rule to observable evidence, a teacher decision, the scope of a possible interface change, and a subsequent check. Do not infer disengagement or neurodivergence from inactivity. Provide private student requests for smaller steps or a written way to contribute. Treat unanimous answers as a reason to inspect explanations, not as a failure. Let the teacher keep the activity with a recorded rationale.
+Preview actual role-specific interface changes in isolated state before applying them. A targeted scaffold should preserve the learning goal and original tools; explicitly shared findings should reach the teammates who need them. Written exchange should preserve links between a contribution and a peer's reply. Keep private checks private, retain previous work, and update only the selected group. Teacher review, rather than a submission count, closes a support request. Preserve evidence for separate next-activity and next-run drafts. Clearly label prepared local behavior versus model-generated capabilities.

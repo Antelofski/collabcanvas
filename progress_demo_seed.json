@@ -1,0 +1,940 @@
+{
+  "plan": {
+    "planned": true,
+    "title": "Who gets a vote? · Editorial meeting",
+    "intent": "Create a role-play activity that simulates an editorial review meeting. Assign students as Story Author, First-time Reader, Evidence Checker, and Critical Editor. Have them examine how area, labels, and sequence convey the message, then write a shared critique.",
+    "materialId": "81",
+    "structure": "Role Play",
+    "budget": 18,
+    "groupSize": 4,
+    "groupCount": 3,
+    "tasks": [
+      {
+        "id": "task-1793064281445-0",
+        "title": "Story Author",
+        "prompt": "What message does the seven-frame story communicate? Explain how changing area supports that message.",
+        "roleId": "author",
+        "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+        "responseType": "text",
+        "options": [],
+        "assignees": [
+          0
+        ],
+        "materialId": "81"
+      },
+      {
+        "id": "task-1793064281445-1",
+        "title": "First-time Reader",
+        "prompt": "Compare the first and final frames. What does area represent? Name one step that needs a clearer explanation.",
+        "roleId": "reader",
+        "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+        "responseType": "text",
+        "options": [],
+        "assignees": [
+          1
+        ],
+        "materialId": "81"
+      },
+      {
+        "id": "task-1793064281445-2",
+        "title": "Evidence Checker",
+        "prompt": "Check the dates and population groups. Why do the voting data and Senate election refer to different years?",
+        "roleId": "checker",
+        "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+        "responseType": "text",
+        "options": [],
+        "assignees": [
+          2
+        ],
+        "materialId": "81"
+      },
+      {
+        "id": "task-1793064281445-3",
+        "title": "Critical Editor",
+        "prompt": "Which step supports the claim about a small voting population? State one claim the story cannot establish.",
+        "roleId": "editor",
+        "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+        "responseType": "text",
+        "options": [],
+        "assignees": [
+          3
+        ],
+        "materialId": "81"
+      }
+    ],
+    "phases": [
+      {
+        "id": "read",
+        "title": "Discuss together",
+        "kind": "discussion",
+        "purpose": "opening",
+        "minutes": 4,
+        "instruction": "Compare the first and last frames. Record one initial group reading.",
+        "deliverable": "One initial group reading"
+      },
+      {
+        "id": "discuss",
+        "title": "Work by role",
+        "kind": "individual",
+        "purpose": "rolework",
+        "minutes": 8,
+        "instruction": "Use the group’s initial reading. Complete your role task before opening peer work.",
+        "deliverable": "4 role contributions"
+      },
+      {
+        "id": "revise",
+        "title": "Write together",
+        "kind": "revision",
+        "purpose": "critique",
+        "minutes": 6,
+        "instruction": "Bring all role findings together. Write one shared critique.",
+        "deliverable": "One shared critique"
+      }
+    ],
+    "interaction": {
+      "mode": "sync",
+      "channel": "write",
+      "visibility": "after_group",
+      "regroup": "home",
+      "feedback": "teacher",
+      "reference": ""
+    },
+    "positions": {},
+    "live": {
+      "started": false,
+      "paused": false,
+      "phaseId": "discuss",
+      "startedAt": null,
+      "remaining": null,
+      "reveal": false
+    },
+    "studio": {
+      "review": "summary",
+      "exchange": "compare",
+      "flow": "group-first",
+      "lectureId": null,
+      "editInstruction": "Start with a group discussion of the first and last frames. Record one initial reading. Then let the four roles examine that reading on their own. Finally, bring their findings together to write one shared critique."
+    },
+    "progress": {
+      "privateCheck": true,
+      "submissions": true,
+      "rubric": true,
+      "participation": true
+    }
+  },
+  "people": [
+    {
+      "id": "b06be2863b",
+      "name": "Maya",
+      "group": 0,
+      "slot": 0,
+      "active": true,
+      "claimed": true
+    },
+    {
+      "id": "1eecbcefdc",
+      "name": "Eli",
+      "group": 0,
+      "slot": 1,
+      "active": true,
+      "claimed": true
+    },
+    {
+      "id": "f556e644bd",
+      "name": "Noor",
+      "group": 0,
+      "slot": 2,
+      "active": true,
+      "claimed": true
+    },
+    {
+      "id": "ff63712d82",
+      "name": "Leo",
+      "group": 0,
+      "slot": 3,
+      "active": true,
+      "claimed": true
+    },
+    {
+      "id": "5c7f8227f7",
+      "name": "",
+      "group": 1,
+      "slot": 0,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "9c5708cfa5",
+      "name": "",
+      "group": 1,
+      "slot": 1,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "76a77c2faf",
+      "name": "",
+      "group": 1,
+      "slot": 2,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "f8a18601db",
+      "name": "",
+      "group": 1,
+      "slot": 3,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "843e783011",
+      "name": "",
+      "group": 2,
+      "slot": 0,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "cadfa6e6c7",
+      "name": "",
+      "group": 2,
+      "slot": 1,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "e978a21d1b",
+      "name": "",
+      "group": 2,
+      "slot": 2,
+      "active": true,
+      "claimed": false
+    },
+    {
+      "id": "018c5267f5",
+      "name": "",
+      "group": 2,
+      "slot": 3,
+      "active": true,
+      "claimed": false
+    }
+  ],
+  "responses": {
+    "b06be2863b": {
+      "discuss:task-1793064281445-0": "A small slice of voters helps decide Senate control. — The shrinking map makes the narrowing electorate visible.\n — ",
+      "discuss:submitted": true
+    },
+    "1eecbcefdc": {
+      "discuss:task-1793064281445-1": "Frame 1: The smaller map could be mistaken for population falling over time. Which label rules that out?",
+      "discuss:submitted": true
+    },
+    "f556e644bd": {
+      "discuss:task-1793064281445-2": "The maps show population falling over time. — The population unit is constant. Labels filter who is counted; this is not a sequence of dates.",
+      "discuss:submitted": true
+    },
+    "ff63712d82": {
+      "discuss:task-1793064281445-3": "Keep the narrowing-electorate claim. Clarify that area represents people and filters change who is counted.",
+      "discuss:submitted": true
+    }
+  },
+  "posts": {},
+  "groupAnswers": {},
+  "feedback": {},
+  "requests": [],
+  "rev": 33,
+  "planRev": 6,
+  "artifacts": {
+    "b06be2863b": {
+      "beats": [
+        {
+          "id": "beat-1793064393608",
+          "frame": 0,
+          "text": "A small slice of voters helps decide Senate control.",
+          "reason": "The shrinking map makes the narrowing electorate visible."
+        },
+        {
+          "id": "beat-1793064393609",
+          "frame": 4,
+          "text": "",
+          "reason": ""
+        }
+      ],
+      "checks": [],
+      "observations": [],
+      "criteria": [
+        "Encoding",
+        "Scope of the claim"
+      ],
+      "reviews": {},
+      "submitted": {
+        "discuss": true
+      },
+      "decision": {
+        "keep": "",
+        "clarify": "",
+        "unresolved": ""
+      },
+      "version": 1,
+      "updated": 1793064434.371687
+    },
+    "1eecbcefdc": {
+      "beats": [
+        {
+          "id": "beat-1793064400015",
+          "frame": 0,
+          "text": "",
+          "reason": ""
+        },
+        {
+          "id": "beat-1793064400016",
+          "frame": 4,
+          "text": "",
+          "reason": ""
+        }
+      ],
+      "checks": [],
+      "observations": [
+        {
+          "id": "note-1793064434655",
+          "frame": 0,
+          "kind": "Needs context",
+          "text": "The smaller map could be mistaken for population falling over time. Which label rules that out?"
+        }
+      ],
+      "criteria": [
+        "Encoding",
+        "Scope of the claim"
+      ],
+      "reviews": {},
+      "submitted": {
+        "discuss": true
+      },
+      "decision": {
+        "keep": "",
+        "clarify": "",
+        "unresolved": ""
+      },
+      "version": 1,
+      "updated": 1793064434.926361
+    },
+    "f556e644bd": {
+      "beats": [
+        {
+          "id": "beat-1793064401025",
+          "frame": 0,
+          "text": "",
+          "reason": ""
+        },
+        {
+          "id": "beat-1793064401026",
+          "frame": 4,
+          "text": "",
+          "reason": ""
+        }
+      ],
+      "checks": [
+        {
+          "id": "check-1793064435228",
+          "frame": 0,
+          "status": "correct",
+          "statement": "The maps show population falling over time.",
+          "reason": "The population unit is constant. Labels filter who is counted; this is not a sequence of dates."
+        }
+      ],
+      "observations": [],
+      "criteria": [
+        "Encoding",
+        "Scope of the claim"
+      ],
+      "reviews": {},
+      "submitted": {
+        "discuss": true
+      },
+      "decision": {
+        "keep": "",
+        "clarify": "",
+        "unresolved": ""
+      },
+      "version": 1,
+      "updated": 1793064435.495741
+    },
+    "ff63712d82": {
+      "beats": [
+        {
+          "id": "beat-1793064401668",
+          "frame": 0,
+          "text": "",
+          "reason": ""
+        },
+        {
+          "id": "beat-1793064401669",
+          "frame": 4,
+          "text": "",
+          "reason": ""
+        }
+      ],
+      "checks": [],
+      "observations": [],
+      "criteria": [
+        "Encoding",
+        "Scope of the claim"
+      ],
+      "reviews": {},
+      "submitted": {
+        "discuss": true
+      },
+      "decision": {
+        "keep": "",
+        "clarify": "",
+        "unresolved": ""
+      },
+      "reflection": "Keep the narrowing-electorate claim. Clarify that area represents people and filters change who is counted.",
+      "version": 1,
+      "updated": 1793064435.7739809
+    }
+  },
+  "studioGroups": {
+    "0": {
+      "opening": {
+        "text": "The maps narrow from all Americans to a small group of voters. Smaller area means fewer people are included, not that the population falls over time.",
+        "version": 1,
+        "updated": 1793064412.357037,
+        "person": "b06be2863b"
+      }
+    }
+  },
+  "progressRecords": {
+    "answers": {
+      "b06be2863b": {
+        "initial": {
+          "answer": "time",
+          "reason": "The later frames look smaller, so I read them as a population decline.",
+          "correct": false,
+          "time": 1793064421.742093
+        },
+        "followup": {
+          "answer": "yes",
+          "reason": "The label changes who is counted. A state can shrink after filtering even if its total population is unchanged.",
+          "correct": true,
+          "time": 1793064521.2199712
+        }
+      },
+      "1eecbcefdc": {
+        "initial": {
+          "answer": "time",
+          "reason": "I thought the sequence showed the population dropping.",
+          "correct": false,
+          "time": 1793064423.5185878
+        },
+        "followup": {
+          "answer": "yes",
+          "reason": "Each frame filters the set of people. The area changes without requiring a population decline.",
+          "correct": true,
+          "time": 1793064522.920993
+        }
+      },
+      "f556e644bd": {
+        "initial": {
+          "answer": "filter",
+          "reason": "The labels narrow the population groups; these are not later dates.",
+          "correct": true,
+          "time": 1793064424.0836182
+        }
+      },
+      "ff63712d82": {
+        "initial": {
+          "answer": "filter",
+          "reason": "The labels narrow the population groups; these are not later dates.",
+          "correct": true,
+          "time": 1793064424.674481
+        }
+      }
+    },
+    "teams": {
+      "0": {
+        "support": {
+          "id": "049131ea",
+          "title": "Check the population filter",
+          "prompt": "Compare frames 1 and 7. Read who each frame includes. Explain why the map can shrink without population falling over time.",
+          "targets": [
+            "b06be2863b",
+            "1eecbcefdc"
+          ],
+          "created": 1793064488.955067,
+          "resolved": true,
+          "resolvedAt": 1793064570.806902,
+          "note": "Both learners now distinguish filtering people from population change over time. I checked their reasons against the frame labels."
+        },
+        "review": {
+          "rubric": "not-reviewed",
+          "participation": "not-reviewed",
+          "note": "All four role artifacts are present. Spoken participation has not been observed; visit the team to check.",
+          "time": 1793064991.2156239
+        }
+      }
+    },
+    "events": [
+      {
+        "group": 0,
+        "kind": "support",
+        "time": 1793064488.955067
+      },
+      {
+        "group": 0,
+        "kind": "resolve",
+        "time": 1793064570.806902
+      },
+      {
+        "group": 0,
+        "kind": "review",
+        "time": 1793064991.2156239
+      }
+    ]
+  },
+  "progressDrafts": [
+    {
+      "id": "9cec7a2d3f",
+      "kind": "next-activity",
+      "title": "Private check before discussion",
+      "changes": [
+        "Each learner answers before seeing the shared reading.",
+        "The opening discussion compares the population groups in frames 1 and 7.",
+        "All four role tools and the shared critique stay connected."
+      ],
+      "created": 1793064583.093774,
+      "sourcePlanRev": 5,
+      "group": 0,
+      "evidence": {
+        "group": 0,
+        "rows": [
+          {
+            "person": "b06be2863b",
+            "name": "Maya",
+            "role": "Story Author",
+            "initial": {
+              "answer": "time",
+              "reason": "The later frames look smaller, so I read them as a population decline.",
+              "correct": false,
+              "time": 1793064421.742093
+            },
+            "followup": {
+              "answer": "yes",
+              "reason": "The label changes who is counted. A state can shrink after filtering even if its total population is unchanged.",
+              "correct": true,
+              "time": 1793064521.2199712
+            }
+          },
+          {
+            "person": "1eecbcefdc",
+            "name": "Eli",
+            "role": "First-time Reader",
+            "initial": {
+              "answer": "time",
+              "reason": "I thought the sequence showed the population dropping.",
+              "correct": false,
+              "time": 1793064423.5185878
+            },
+            "followup": {
+              "answer": "yes",
+              "reason": "Each frame filters the set of people. The area changes without requiring a population decline.",
+              "correct": true,
+              "time": 1793064522.920993
+            }
+          },
+          {
+            "person": "f556e644bd",
+            "name": "Noor",
+            "role": "Evidence Checker",
+            "initial": {
+              "answer": "filter",
+              "reason": "The labels narrow the population groups; these are not later dates.",
+              "correct": true,
+              "time": 1793064424.0836182
+            },
+            "followup": null
+          },
+          {
+            "person": "ff63712d82",
+            "name": "Leo",
+            "role": "Critical Editor",
+            "initial": {
+              "answer": "filter",
+              "reason": "The labels narrow the population groups; these are not later dates.",
+              "correct": true,
+              "time": 1793064424.674481
+            },
+            "followup": null
+          }
+        ],
+        "answered": 4,
+        "wrong": 2,
+        "total": 4,
+        "submitted": 4,
+        "status": "Reviewed by instructor",
+        "support": {
+          "id": "049131ea",
+          "title": "Check the population filter",
+          "prompt": "Compare frames 1 and 7. Read who each frame includes. Explain why the map can shrink without population falling over time.",
+          "targets": [
+            "b06be2863b",
+            "1eecbcefdc"
+          ],
+          "created": 1793064488.955067,
+          "resolved": true,
+          "resolvedAt": 1793064570.806902,
+          "note": "Both learners now distinguish filtering people from population change over time. I checked their reasons against the frame labels."
+        },
+        "review": {},
+        "followupCount": 2,
+        "followupCorrect": 2
+      },
+      "plan": {
+        "planned": true,
+        "title": "Who gets a vote? · Editorial meeting",
+        "intent": "Create a role-play activity that simulates an editorial review meeting. Assign students as Story Author, First-time Reader, Evidence Checker, and Critical Editor. Have them examine how area, labels, and sequence convey the message, then write a shared critique.",
+        "materialId": "81",
+        "structure": "Role Play",
+        "budget": 18,
+        "groupSize": 4,
+        "groupCount": 3,
+        "tasks": [
+          {
+            "id": "task-1793064281445-0",
+            "title": "Story Author",
+            "prompt": "What message does the seven-frame story communicate? Explain how changing area supports that message.",
+            "roleId": "author",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              0
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-1",
+            "title": "First-time Reader",
+            "prompt": "Compare the first and final frames. What does area represent? Name one step that needs a clearer explanation.",
+            "roleId": "reader",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              1
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-2",
+            "title": "Evidence Checker",
+            "prompt": "Check the dates and population groups. Why do the voting data and Senate election refer to different years?",
+            "roleId": "checker",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              2
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-3",
+            "title": "Critical Editor",
+            "prompt": "Which step supports the claim about a small voting population? State one claim the story cannot establish.",
+            "roleId": "editor",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              3
+            ],
+            "materialId": "81"
+          }
+        ],
+        "phases": [
+          {
+            "id": "read",
+            "title": "Check, then discuss",
+            "kind": "discussion",
+            "purpose": "opening",
+            "minutes": 5,
+            "instruction": "Answer the private reading check before opening the shared discussion. Compare frames 1 and 7, then record a group reading.",
+            "deliverable": "One initial group reading"
+          },
+          {
+            "id": "discuss",
+            "title": "Work by role",
+            "kind": "individual",
+            "purpose": "rolework",
+            "minutes": 7,
+            "instruction": "Use the group’s initial reading. Complete your role task before opening peer work.",
+            "deliverable": "4 role contributions"
+          },
+          {
+            "id": "revise",
+            "title": "Write together",
+            "kind": "revision",
+            "purpose": "critique",
+            "minutes": 6,
+            "instruction": "Bring all role findings together. Write one shared critique.",
+            "deliverable": "One shared critique"
+          }
+        ],
+        "interaction": {
+          "mode": "sync",
+          "channel": "write",
+          "visibility": "after_group",
+          "regroup": "home",
+          "feedback": "teacher",
+          "reference": ""
+        },
+        "positions": {},
+        "live": {
+          "started": false,
+          "paused": false,
+          "phaseId": "read",
+          "startedAt": null,
+          "remaining": null,
+          "reveal": false
+        },
+        "studio": {
+          "review": "summary",
+          "exchange": "compare",
+          "flow": "group-first",
+          "lectureId": null,
+          "editInstruction": "Start with a group discussion of the first and last frames. Record one initial reading. Then let the four roles examine that reading on their own. Finally, bring their findings together to write one shared critique."
+        },
+        "progress": {
+          "privateCheck": true,
+          "submissions": true,
+          "rubric": true,
+          "participation": false,
+          "checkPhase": "read",
+          "beforeDiscussion": true
+        }
+      }
+    },
+    {
+      "id": "47dad31a06",
+      "kind": "next-run",
+      "title": "Clearer role briefs for the next run",
+      "changes": [
+        "Evidence Checker checks units, population groups, and the story’s date.",
+        "First-time Reader records a confusing transition and asks the Checker a question.",
+        "Critical Editor responds to the Reader and Checker before drafting the critique."
+      ],
+      "created": 1793064596.518399,
+      "sourcePlanRev": 5,
+      "group": 0,
+      "evidence": {
+        "group": 0,
+        "rows": [
+          {
+            "person": "b06be2863b",
+            "name": "Maya",
+            "role": "Story Author",
+            "initial": {
+              "answer": "time",
+              "reason": "The later frames look smaller, so I read them as a population decline.",
+              "correct": false,
+              "time": 1793064421.742093
+            },
+            "followup": {
+              "answer": "yes",
+              "reason": "The label changes who is counted. A state can shrink after filtering even if its total population is unchanged.",
+              "correct": true,
+              "time": 1793064521.2199712
+            }
+          },
+          {
+            "person": "1eecbcefdc",
+            "name": "Eli",
+            "role": "First-time Reader",
+            "initial": {
+              "answer": "time",
+              "reason": "I thought the sequence showed the population dropping.",
+              "correct": false,
+              "time": 1793064423.5185878
+            },
+            "followup": {
+              "answer": "yes",
+              "reason": "Each frame filters the set of people. The area changes without requiring a population decline.",
+              "correct": true,
+              "time": 1793064522.920993
+            }
+          },
+          {
+            "person": "f556e644bd",
+            "name": "Noor",
+            "role": "Evidence Checker",
+            "initial": {
+              "answer": "filter",
+              "reason": "The labels narrow the population groups; these are not later dates.",
+              "correct": true,
+              "time": 1793064424.0836182
+            },
+            "followup": null
+          },
+          {
+            "person": "ff63712d82",
+            "name": "Leo",
+            "role": "Critical Editor",
+            "initial": {
+              "answer": "filter",
+              "reason": "The labels narrow the population groups; these are not later dates.",
+              "correct": true,
+              "time": 1793064424.674481
+            },
+            "followup": null
+          }
+        ],
+        "answered": 4,
+        "wrong": 2,
+        "total": 4,
+        "submitted": 4,
+        "status": "Reviewed by instructor",
+        "support": {
+          "id": "049131ea",
+          "title": "Check the population filter",
+          "prompt": "Compare frames 1 and 7. Read who each frame includes. Explain why the map can shrink without population falling over time.",
+          "targets": [
+            "b06be2863b",
+            "1eecbcefdc"
+          ],
+          "created": 1793064488.955067,
+          "resolved": true,
+          "resolvedAt": 1793064570.806902,
+          "note": "Both learners now distinguish filtering people from population change over time. I checked their reasons against the frame labels."
+        },
+        "review": {},
+        "followupCount": 2,
+        "followupCorrect": 2
+      },
+      "plan": {
+        "planned": true,
+        "title": "Who gets a vote? · Editorial meeting",
+        "intent": "Create a role-play activity that simulates an editorial review meeting. Assign students as Story Author, First-time Reader, Evidence Checker, and Critical Editor. Have them examine how area, labels, and sequence convey the message, then write a shared critique.",
+        "materialId": "81",
+        "structure": "Role Play",
+        "budget": 18,
+        "groupSize": 4,
+        "groupCount": 3,
+        "tasks": [
+          {
+            "id": "task-1793064281445-0",
+            "title": "Story Author",
+            "prompt": "What message does the seven-frame story communicate? Explain how changing area supports that message.",
+            "roleId": "author",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              0
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-1",
+            "title": "First-time Reader",
+            "prompt": "Find one transition that a first-time reader could mistake for change over time. Ask the Evidence Checker a specific question about its label.",
+            "roleId": "reader",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              1
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-2",
+            "title": "Evidence Checker",
+            "prompt": "Check the map unit, the population group in frames 1 and 7, and whether the story shows time or filtering. Explain one claim the map cannot support.",
+            "roleId": "checker",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              2
+            ],
+            "materialId": "81"
+          },
+          {
+            "id": "task-1793064281445-3",
+            "title": "Critical Editor",
+            "prompt": "Read the Reader’s question and the Checker’s findings. Explain which claim to keep, which to clarify, and what remains unresolved.",
+            "roleId": "editor",
+            "handoff": "Use the group’s initial reading in your role task. Bring your findings back to the shared critique.",
+            "responseType": "text",
+            "options": [],
+            "assignees": [
+              3
+            ],
+            "materialId": "81"
+          }
+        ],
+        "phases": [
+          {
+            "id": "read",
+            "title": "Discuss together",
+            "kind": "discussion",
+            "purpose": "opening",
+            "minutes": 4,
+            "instruction": "Compare the first and last frames. Record one initial group reading.",
+            "deliverable": "One initial group reading"
+          },
+          {
+            "id": "discuss",
+            "title": "Work by role",
+            "kind": "individual",
+            "purpose": "rolework",
+            "minutes": 8,
+            "instruction": "Use the group’s initial reading. Complete your role task before opening peer work.",
+            "deliverable": "4 role contributions"
+          },
+          {
+            "id": "revise",
+            "title": "Write together",
+            "kind": "revision",
+            "purpose": "critique",
+            "minutes": 6,
+            "instruction": "Bring all role findings together. Write one shared critique.",
+            "deliverable": "One shared critique"
+          }
+        ],
+        "interaction": {
+          "mode": "sync",
+          "channel": "write",
+          "visibility": "after_group",
+          "regroup": "home",
+          "feedback": "teacher",
+          "reference": ""
+        },
+        "positions": {},
+        "live": {
+          "started": false,
+          "paused": false,
+          "phaseId": "read",
+          "startedAt": null,
+          "remaining": null,
+          "reveal": false
+        },
+        "studio": {
+          "review": "summary",
+          "exchange": "compare",
+          "flow": "group-first",
+          "lectureId": null,
+          "editInstruction": "Start with a group discussion of the first and last frames. Record one initial reading. Then let the four roles examine that reading on their own. Finally, bring their findings together to write one shared critique.",
+          "adaptedBriefs": true
+        },
+        "progress": {
+          "privateCheck": true,
+          "submissions": true,
+          "rubric": true,
+          "participation": false
+        }
+      }
+    }
+  ]
+}

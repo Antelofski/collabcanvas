@@ -1,0 +1,48 @@
+COLLABCANVAS — PLAN, TEST, DEPLOY AND ADAPT
+
+169.5 seconds. English product screens and captions; no voice-over.
+Actual prototype states captured through the Chinese Next-only tutorial. Each Planner input is shown separately. Rule selection is separate from data collection. Before/after snapshots preserve identical source work and are read-only; only Apply changes the classroom. The role-play learning activity is context, not the focus.
+
+Testing runs real scripted browser journeys against isolated test state. Guided playback adds a short pause on interface loads so execution is visible; checks are unchanged. It is not an autonomous LLM agent or a teaching-quality assessment. Generation, semantic editing, rule suggestions and interface adaptations use prepared local logic. Students and responses are labelled examples; follow-up responses are simulated, not evidence of learning gains.
+
+The instructor sees contribution, linked-question and conditional reasoning checks. Missing work and agreement are review signals, not diagnoses. The teacher previews changes, applies to the relevant learner or group, and inspects subsequent work. Existing work and private initial answers are preserved. The final knowledge-state report retains individual task evidence, item-level results, teacher judgments and suggested next checks. It does not infer mastery from group completion. Saved snapshots are immutable and can be downloaded. The video uses captured UI geometry for cues, shown immediately with the relevant frame. No controls or responses are fabricated in postproduction.
+
+CHAPTERS
+00:00:00  Start from an empty canvas
+00:00:02  1 · Upload the teaching material
+00:00:06  2 · Select the visualization
+00:00:09  3 · Describe the activity
+00:00:14  4 · Choose the collaboration method
+00:00:17  5 · Set the number of teams
+00:00:20  6 · Set the group size
+00:00:23  7 · Set the time
+00:00:26  Review, then generate
+00:00:29  Inspect the connected interfaces
+00:00:34  Edit the generated interfaces
+00:00:42  Select three collaboration progress rules
+00:00:46  R2 · Peer questions receive a response
+00:00:49  R3 · Agreement includes a reasoning check
+00:00:52  Test the interfaces before release
+00:01:01  Deploy one class entry
+00:01:07  Learners claim their interfaces
+00:01:12  Inspect progress across teams
+00:01:16  R1 · A contribution is missing at the checkpoint
+00:01:23  Preview a response to the learner’s request
+00:01:27  Open the full current interface
+00:01:30  Open the full proposed interface
+00:01:36  Confirm the recipient
+00:01:38  Apply and inspect the live interface
+00:01:43  Inspect the contribution after support
+00:01:49  R2 · A peer question has been overlooked
+00:01:55  Bring the existing question into shared writing
+00:02:00  Apply the peer-response interface
+00:02:03  Inspect the question–response link
+00:02:09  R3 · Agreement needs a reasoning check
+00:02:15  Preview a contrasting claim
+00:02:20  Apply only to the relevant team
+00:02:23  Inspect the explanation and peer response
+00:02:28  Keep the evidence and the teacher’s decisions
+00:02:31  Review each learner’s task evidence
+00:02:35  Record a task judgment and a next check
+00:02:40  Keep unresolved knowledge difficulties visible
+00:02:45  Save a report for later planning

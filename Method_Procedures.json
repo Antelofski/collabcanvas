@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Think-Pair-Share",
+    "book_category": "Discussion",
+    "ordered_paraphrased_procedure": [
+      "Present a question and allow independent thinking and responses.",
+      "Pair learners nearby.",
+      "A shares with B, then B with A. Clarify reasons for disagreement; a joint response is optional."
+    ],
+    "participants_grouping": "Individual → pairs → optional class reporting.",
+    "roles": [
+      "A and B: reciprocal speakers/listeners."
+    ],
+    "key_peer_dependency": "Both responses must become available for comparison.",
+    "artifact_flow": "Private ideas → exchanged explanations → optional joint response/class contribution.",
+    "nonnegotiable_mechanism": "Protected individual thought precedes reciprocal pair exchange.",
+    "important_variants": [
+      "Written preparation and class reporting are instructor choices; online adaptation uses paired communication."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique37-Think-Pair-Share-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=158"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 10,
+    "name": "Role-Play",
+    "book_category": "Reciprocal Teaching",
+    "ordered_paraphrased_procedure": [
+      "Form groups large enough for the stakeholder roles.",
+      "Present and clarify the scenario; allow questions.",
+      "Assign stakeholder and any moderator/observer roles and clarify duties.",
+      "Set a time limit or other stopping condition.",
+      "Enact until the target behavior, characteristic or skill becomes clear.",
+      "Debrief role interpretations, motivations and consequences in groups or as a class.",
+      "Optionally reenact with different characters or a revised scenario and debrief again."
+    ],
+    "participants_grouping": "Groups large enough for the scenario’s stakeholder roles.",
+    "roles": [
+      "Stakeholders; optional moderator and observers."
+    ],
+    "key_peer_dependency": "Action depends on responding from different stakeholder positions.",
+    "artifact_flow": "Scenario → enacted decisions/dialogue → interpretation/debrief; optional reenactment.",
+    "nonnegotiable_mechanism": "Assumed perspectives must be enacted and interpreted.",
+    "important_variants": [
+      "Role swap; observed performance; Triad Listening: speaker/listener/referee."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique23-Role-Play-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=186"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 17,
+    "name": "Analytic Teams",
+    "book_category": "Problem-Solving",
+    "ordered_paraphrased_procedure": [
+      "Form groups of four or five and allocate specific analytic roles and duties.",
+      "Present a common lecture, video or reading.",
+      "Allow individuals to share findings and jointly prepare an oral or written analysis.",
+      "Close in a way that highlights role contributions, using a brief report, panel or poster format appropriate to the task."
+    ],
+    "participants_grouping": "Groups of4–5 in the book; distinct analytic functions on one source.",
+    "roles": [
+      "Proponent; critic; example giver; summarizer; questioner, as appropriate."
+    ],
+    "key_peer_dependency": "A fuller analysis requires distinct functions applied to the same material.",
+    "artifact_flow": "Common source → individual role analysis → team exchange → reports.",
+    "nonnegotiable_mechanism": "Divide analytic responsibilities rather than merely dividing source pages.",
+    "important_variants": [
+      "Assign roles to whole teams; use different related assignments; extend across sessions."
+    ],
+    "source_urls": [
+      "https://kpcrossacademy.ua.edu/wp-content/uploads/2024/06/Cross-Academy-Download-Sheet-Technique06-Analytic-Teams-Updated-2021.zip",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=215"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  },
+  {
+    "id": 27,
+    "name": "Peer Editing",
+    "book_category": "Writing",
+    "ordered_paraphrased_procedure": [
+      "In pairs discuss the papers each plans to write; the partner takes notes, questions and suggests.",
+      "Research individually while also noticing resources useful to the partner.",
+      "Write individual drafts.",
+      "Exchange drafts, annotate them and complete a signed criteria-based review form.",
+      "Each author revises in light of the review.",
+      "Submit the final draft with its review form for instructor evaluation."
+    ],
+    "participants_grouping": "Pairs support individually authored papers.",
+    "roles": [
+      "Author; questioning partner; editor, reciprocally."
+    ],
+    "key_peer_dependency": "A partner’s critical reading informs author revision.",
+    "artifact_flow": "Idea talk → independent paper → reviewed draft → revision → submission.",
+    "nonnegotiable_mechanism": "Reciprocal critique leads to author revision.",
+    "important_variants": [
+      "Content/argument review as well as language editing."
+    ],
+    "source_urls": [
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058",
+      "https://ebookcentral-proquest-com.proxy.lib.umich.edu/lib/umichigan/reader.action?docID=1745058&ppg=265"
+    ],
+    "evidence_limit": "All numbered core steps rechecked in the licensed second-edition book on2026-10-15. Task-specific parameters and optional variants remain distinct. Narrative paragraphs can truncate in accessibility; no claim of reading every case example word for word. This is procedural grounding, not method-specific efficacy or prevalence evidence."
+  }
+]
