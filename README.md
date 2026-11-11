@@ -4,6 +4,10 @@ A working InfoVis prototype for planning, previewing and adapting connected stud
 
 ## Public demo
 
+One-click host (free web service): [Deploy to Render](https://render.com/deploy?repo=https://github.com/Antelofski/collabcanvas).
+
+Or with Fly.io after `fly auth login`: `fly launch --copy-config --yes && fly deploy`.
+
 Deploy from the Docker/`render.yaml` files in this repository (Render free web service works). Set `COLLABCANVAS_PUBLIC=1`. The first boot loads `runtime/public-seed.json`.
 
 - Instructor: `https://YOUR_HOST/?admin=collabcanvas-public-demo&view=flow`
